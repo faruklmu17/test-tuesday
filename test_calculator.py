@@ -12,3 +12,6 @@ def test_divide():
   assert divide(4,2)==2
 def test_divide_by_negatives():
   assert divide(-4,-2)==2
+
+def test_multiply():
+  assert multiply(4,3)==12
